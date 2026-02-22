@@ -1,0 +1,233 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="sqlDataSource1.ResultSchemaSerializable" xml:space="preserve">
+    <value>PERhdGFTZXQgTmFtZT0ic3FsRGF0YVNvdXJjZTEiPjxWaWV3IE5hbWU9IlF1ZXJ5Ij48RmllbGQgTmFtZT0iU0xOTyIgVHlwZT0iSW50MzIiIC8+PEZpZWxkIE5hbWU9IkNPTVBBTlkiIFR5cGU9IlN0cmluZyIgLz48RmllbGQgTmFtZT0iTU9OSVRPUklOR19EQVRFIiBUeXBlPSJEYXRlVGltZSIgLz48RmllbGQgTmFtZT0iV2Vla05vIiBUeXBlPSJJbnQzMiIgLz48RmllbGQgTmFtZT0iTElORV9OTyIgVHlwZT0iU3RyaW5nIiAvPjxGaWVsZCBOYW1lPSJCT09LSU5HX05PIiBUeXBlPSJTdHJpbmciIC8+PEZpZWxkIE5hbWU9IkJPT0tJTkdfTk9fQ09ERSIgVHlwZT0iU3RyaW5nIiAvPjxGaWVsZCBOYW1lPSJUT1RBTF9TTVYiIFR5cGU9IkRvdWJsZSIgLz48RmllbGQgTmFtZT0iU1RBVFVTIiBUeXBlPSJTdHJpbmciIC8+PEZpZWxkIE5hbWU9IkZFRURfRklOSVNIIiBUeXBlPSJEYXRlVGltZSIgLz48RmllbGQgTmFtZT0iUFJFX1NUWUxFX0ZJTklTSCIgVHlwZT0iRGF0ZVRpbWUiIC8+PEZpZWxkIE5hbWU9IlByZXZpb3VzX0Jvb2tpbmdfTm8iIFR5cGU9IlN0cmluZyIgLz48RmllbGQgTmFtZT0iUHJldmlvdXNfVG90YWxfU01WIiBUeXBlPSJEb3VibGUiIC8+PEZpZWxkIE5hbWU9IlRvdGFsX01DX1NFVFVQX0RVUkFUSU9OIiBUeXBlPSJEZWNpbWFsIiAvPjxGaWVsZCBOYW1lPSJEZWxheV9mb3JfTWFuIiBUeXBlPSJTdHJpbmciIC8+PEZpZWxkIE5hbWU9IlRvdGFsX01hbl9EZWxheV9UaW1lIiBUeXBlPSJJbnQzMiIgLz48RmllbGQgTmFtZT0iRGVsYXlfZm9yX01hY2hpbmUiIFR5cGU9IlN0cmluZyIgLz48RmllbGQgTmFtZT0iVG90YWxfTWFjaGluZV9EZWxheV9UaW1lIiBUeXBlPSJJbnQzMiIgLz48RmllbGQgTmFtZT0iRGVsYXlfZm9yX01ldGhvZCIgVHlwZT0iU3RyaW5nIiAvPjxGaWVsZCBOYW1lPSJUb3RhbF9NZXRob2RfRGVsYXlfVGltZSIgVHlwZT0iSW50MzIiIC8+PEZpZWxkIE5hbWU9IkRlbGF5X2Zvcl9NYXRlcmlhbCIgVHlwZT0iU3RyaW5nIiAvPjxGaWVsZCBOYW1lPSJUb3RhbF9NYXRlcmlhbF9EZWxheV9UaW1lIiBUeXBlPSJJbnQzMiIgLz48RmllbGQgTmFtZT0iRGF5MV9EYXRlIiBUeXBlPSJEYXRlVGltZSIgLz48RmllbGQgTmFtZT0iRGF5MV9PcGVyYXRvciIgVHlwZT0iU3RyaW5nIiAvPjxGaWVsZCBOYW1lPSJEYXkxX0hlbHBlciIgVHlwZT0iU3RyaW5nIiAvPjxGaWVsZCBOYW1lPSJEYXkxX1dvcmtpbmdfSG91ciIgVHlwZT0iU3RyaW5nIiAvPjxGaWVsZCBOYW1lPSJEYXkxX0FjdHVhbF9TTVYiIFR5cGU9IlN0cmluZyIgLz48RmllbGQgTmFtZT0iRGF5MV9FZmZpX1BlciIgVHlwZT0iRG91YmxlIiAvPjxGaWVsZCBOYW1lPSJEYXkyX0RhdGUiIFR5cGU9IkRhdGVUaW1lIiAvPjxGaWVsZCBOYW1lPSJEYXkyX09wZXJhdG9yIiBUeXBlPSJTdHJpbmciIC8+PEZpZWxkIE5hbWU9IkRheTJfSGVscGVyIiBUeXBlPSJTdHJpbmciIC8+PEZpZWxkIE5hbWU9IkRheTJfV29ya2luZ19Ib3VyIiBUeXBlPSJTdHJpbmciIC8+PEZpZWxkIE5hbWU9IkRheTJfQWN0dWFsX1NNViIgVHlwZT0iU3RyaW5nIiAvPjxGaWVsZCBOYW1lPSJEYXkyX0VmZmlfUGVyIiBUeXBlPSJEb3VibGUiIC8+PEZpZWxkIE5hbWU9IkRheTNfRGF0ZSIgVHlwZT0iRGF0ZVRpbWUiIC8+PEZpZWxkIE5hbWU9IkRheTNfT3BlcmF0b3IiIFR5cGU9IlN0cmluZyIgLz48RmllbGQgTmFtZT0iRGF5M19IZWxwZXIiIFR5cGU9IlN0cmluZyIgLz48RmllbGQgTmFtZT0iRGF5M19Xb3JraW5nX0hvdXIiIFR5cGU9IlN0cmluZyIgLz48RmllbGQgTmFtZT0iRGF5M19BY3R1YWxfU01WIiBUeXBlPSJTdHJpbmciIC8+PEZpZWxkIE5hbWU9IkRheTNfRWZmaV9QZXIiIFR5cGU9IkRvdWJsZSIgLz48RmllbGQgTmFtZT0iRGF5NF9EYXRlIiBUeXBlPSJEYXRlVGltZSIgLz48RmllbGQgTmFtZT0iRGF5NF9PcGVyYXRvciIgVHlwZT0iU3RyaW5nIiAvPjxGaWVsZCBOYW1lPSJEYXk0X0hlbHBlciIgVHlwZT0iU3RyaW5nIiAvPjxGaWVsZCBOYW1lPSJEYXk0X1dvcmtpbmdfSG91ciIgVHlwZT0iU3RyaW5nIiAvPjxGaWVsZCBOYW1lPSJEYXk0X0FjdHVhbF9TTVYiIFR5cGU9IlN0cmluZyIgLz48RmllbGQgTmFtZT0iRGF5NF9FZmZpX1BlciIgVHlwZT0iRG91YmxlIiAvPjxGaWVsZCBOYW1lPSJEYXk1X0RhdGUiIFR5cGU9IkRhdGVUaW1lIiAvPjxGaWVsZCBOYW1lPSJEYXk1X09wZXJhdG9yIiBUeXBlPSJTdHJpbmciIC8+PEZpZWxkIE5hbWU9IkRheTVfSGVscGVyIiBUeXBlPSJTdHJpbmciIC8+PEZpZWxkIE5hbWU9IkRheTVfV29ya2luZ19Ib3VyIiBUeXBlPSJTdHJpbmciIC8+PEZpZWxkIE5hbWU9IkRheTVfQWN0dWFsX1NNViIgVHlwZT0iU3RyaW5nIiAvPjxGaWVsZCBOYW1lPSJEYXk1X0VmZmlfUGVyIiBUeXBlPSJEb3VibGUiIC8+PEZpZWxkIE5hbWU9IkRheTZfRGF0ZSIgVHlwZT0iRGF0ZVRpbWUiIC8+PEZpZWxkIE5hbWU9IkRheTZfT3BlcmF0b3IiIFR5cGU9IlN0cmluZyIgLz48RmllbGQgTmFtZT0iRGF5Nl9IZWxwZXIiIFR5cGU9IlN0cmluZyIgLz48RmllbGQgTmFtZT0iRGF5Nl9Xb3JraW5nX0hvdXIiIFR5cGU9IlN0cmluZyIgLz48RmllbGQgTmFtZT0iRGF5Nl9BY3R1YWxfU01WIiBUeXBlPSJTdHJpbmciIC8+PEZpZWxkIE5hbWU9IkRheTZfRWZmaV9QZXIiIFR5cGU9IkRvdWJsZSIgLz48RmllbGQgTmFtZT0iUHJvZF9EYXkxX0RhdGUiIFR5cGU9IkRhdGVUaW1lIiAvPjxGaWVsZCBOYW1lPSJQcm9kX0RheTFfUXVhbnRpdHkiIFR5cGU9IkRvdWJsZSIgLz48RmllbGQgTmFtZT0iUHJvZF9EYXkyX0RhdGUiIFR5cGU9IkRhdGVUaW1lIiAvPjxGaWVsZCBOYW1lPSJQcm9kX0RheTJfUXVhbnRpdHkiIFR5cGU9IkRvdWJsZSIgLz48RmllbGQgTmFtZT0iUHJvZF9EYXkzX0RhdGUiIFR5cGU9IkRhdGVUaW1lIiAvPjxGaWVsZCBOYW1lPSJQcm9kX0RheTNfUXVhbnRpdHkiIFR5cGU9IkRvdWJsZSIgLz48RmllbGQgTmFtZT0iUHJvZF9EYXk0X0RhdGUiIFR5cGU9IkRhdGVUaW1lIiAvPjxGaWVsZCBOYW1lPSJQcm9kX0RheTRfUXVhbnRpdHkiIFR5cGU9IkRvdWJsZSIgLz48RmllbGQgTmFtZT0iUHJvZF9EYXk1X0RhdGUiIFR5cGU9IkRhdGVUaW1lIiAvPjxGaWVsZCBOYW1lPSJQcm9kX0RheTVfUXVhbnRpdHkiIFR5cGU9IkRvdWJsZSIgLz48RmllbGQgTmFtZT0iUHJvZF9EYXk2X0RhdGUiIFR5cGU9IkRhdGVUaW1lIiAvPjxGaWVsZCBOYW1lPSJQcm9kX0RheTZfUXVhbnRpdHkiIFR5cGU9IkRvdWJsZSIgLz48L1ZpZXc+PFZpZXcgTmFtZT0iUXVlcnlfMSI+PEZpZWxkIE5hbWU9IkNvbXBhbnlfTmFtZSIgVHlwZT0iU3RyaW5nIiAvPjwvVmlldz48VmlldyBOYW1lPSJRdWVyeV8yIj48RmllbGQgTmFtZT0iU0xOTyIgVHlwZT0iSW50MzIiIC8+PEZpZWxkIE5hbWU9IkNPTVBBTlkiIFR5cGU9IlN0cmluZyIgLz48RmllbGQgTmFtZT0iTU9OSVRPUklOR19EQVRFIiBUeXBlPSJEYXRlVGltZSIgLz48RmllbGQgTmFtZT0iV2Vla05vIiBUeXBlPSJJbnQzMiIgLz48RmllbGQgTmFtZT0iTElORV9OTyIgVHlwZT0iU3RyaW5nIiAvPjxGaWVsZCBOYW1lPSJCT09LSU5HX05PIiBUeXBlPSJTdHJpbmciIC8+PEZpZWxkIE5hbWU9IkJPT0tJTkdfTk9fQ09ERSIgVHlwZT0iU3RyaW5nIiAvPjxGaWVsZCBOYW1lPSJUT1RBTF9TTVYiIFR5cGU9IkRvdWJsZSIgLz48RmllbGQgTmFtZT0iU1RBVFVTIiBUeXBlPSJTdHJpbmciIC8+PEZpZWxkIE5hbWU9IkZFRURfRklOSVNIIiBUeXBlPSJEYXRlVGltZSIgLz48RmllbGQgTmFtZT0iUFJFX1NUWUxFX0ZJTklTSCIgVHlwZT0iRGF0ZVRpbWUiIC8+PEZpZWxkIE5hbWU9IlByZXZpb3VzX0Jvb2tpbmdfTm8iIFR5cGU9IlN0cmluZyIgLz48RmllbGQgTmFtZT0iUHJldmlvdXNfVG90YWxfU01WIiBUeXBlPSJEb3VibGUiIC8+PEZpZWxkIE5hbWU9IlRvdGFsX01DX1NFVFVQX0RVUkFUSU9OIiBUeXBlPSJEZWNpbWFsIiAvPjxGaWVsZCBOYW1lPSJEZWxheV9mb3JfTWFuIiBUeXBlPSJTdHJpbmciIC8+PEZpZWxkIE5hbWU9IlRvdGFsX01hbl9EZWxheV9UaW1lIiBUeXBlPSJJbnQzMiIgLz48RmllbGQgTmFtZT0iRGVsYXlfZm9yX01hY2hpbmUiIFR5cGU9IlN0cmluZyIgLz48RmllbGQgTmFtZT0iVG90YWxfTWFjaGluZV9EZWxheV9UaW1lIiBUeXBlPSJJbnQzMiIgLz48RmllbGQgTmFtZT0iRGVsYXlfZm9yX01ldGhvZCIgVHlwZT0iU3RyaW5nIiAvPjxGaWVsZCBOYW1lPSJUb3RhbF9NZXRob2RfRGVsYXlfVGltZSIgVHlwZT0iSW50MzIiIC8+PEZpZWxkIE5hbWU9IkRlbGF5X2Zvcl9NYXRlcmlhbCIgVHlwZT0iU3RyaW5nIiAvPjxGaWVsZCBOYW1lPSJUb3RhbF9NYXRlcmlhbF9EZWxheV9UaW1lIiBUeXBlPSJJbnQzMiIgLz48RmllbGQgTmFtZT0iRGF5MV9EYXRlIiBUeXBlPSJEYXRlVGltZSIgLz48RmllbGQgTmFtZT0iRGF5MV9PcGVyYXRvciIgVHlwZT0iU3RyaW5nIiAvPjxGaWVsZCBOYW1lPSJEYXkxX0hlbHBlciIgVHlwZT0iU3RyaW5nIiAvPjxGaWVsZCBOYW1lPSJEYXkxX1dvcmtpbmdfSG91ciIgVHlwZT0iU3RyaW5nIiAvPjxGaWVsZCBOYW1lPSJEYXkxX0FjdHVhbF9TTVYiIFR5cGU9IlN0cmluZyIgLz48RmllbGQgTmFtZT0iRGF5MV9FZmZpX1BlciIgVHlwZT0iRG91YmxlIiAvPjxGaWVsZCBOYW1lPSJEYXkyX0RhdGUiIFR5cGU9IkRhdGVUaW1lIiAvPjxGaWVsZCBOYW1lPSJEYXkyX09wZXJhdG9yIiBUeXBlPSJTdHJpbmciIC8+PEZpZWxkIE5hbWU9IkRheTJfSGVscGVyIiBUeXBlPSJTdHJpbmciIC8+PEZpZWxkIE5hbWU9IkRheTJfV29ya2luZ19Ib3VyIiBUeXBlPSJTdHJpbmciIC8+PEZpZWxkIE5hbWU9IkRheTJfQWN0dWFsX1NNViIgVHlwZT0iU3RyaW5nIiAvPjxGaWVsZCBOYW1lPSJEYXkyX0VmZmlfUGVyIiBUeXBlPSJEb3VibGUiIC8+PEZpZWxkIE5hbWU9IkRheTNfRGF0ZSIgVHlwZT0iRGF0ZVRpbWUiIC8+PEZpZWxkIE5hbWU9IkRheTNfT3BlcmF0b3IiIFR5cGU9IlN0cmluZyIgLz48RmllbGQgTmFtZT0iRGF5M19IZWxwZXIiIFR5cGU9IlN0cmluZyIgLz48RmllbGQgTmFtZT0iRGF5M19Xb3JraW5nX0hvdXIiIFR5cGU9IlN0cmluZyIgLz48RmllbGQgTmFtZT0iRGF5M19BY3R1YWxfU01WIiBUeXBlPSJTdHJpbmciIC8+PEZpZWxkIE5hbWU9IkRheTNfRWZmaV9QZXIiIFR5cGU9IkRvdWJsZSIgLz48RmllbGQgTmFtZT0iRGF5NF9EYXRlIiBUeXBlPSJEYXRlVGltZSIgLz48RmllbGQgTmFtZT0iRGF5NF9PcGVyYXRvciIgVHlwZT0iU3RyaW5nIiAvPjxGaWVsZCBOYW1lPSJEYXk0X0hlbHBlciIgVHlwZT0iU3RyaW5nIiAvPjxGaWVsZCBOYW1lPSJEYXk0X1dvcmtpbmdfSG91ciIgVHlwZT0iU3RyaW5nIiAvPjxGaWVsZCBOYW1lPSJEYXk0X0FjdHVhbF9TTVYiIFR5cGU9IlN0cmluZyIgLz48RmllbGQgTmFtZT0iRGF5NF9FZmZpX1BlciIgVHlwZT0iRG91YmxlIiAvPjxGaWVsZCBOYW1lPSJEYXk1X0RhdGUiIFR5cGU9IkRhdGVUaW1lIiAvPjxGaWVsZCBOYW1lPSJEYXk1X09wZXJhdG9yIiBUeXBlPSJTdHJpbmciIC8+PEZpZWxkIE5hbWU9IkRheTVfSGVscGVyIiBUeXBlPSJTdHJpbmciIC8+PEZpZWxkIE5hbWU9IkRheTVfV29ya2luZ19Ib3VyIiBUeXBlPSJTdHJpbmciIC8+PEZpZWxkIE5hbWU9IkRheTVfQWN0dWFsX1NNViIgVHlwZT0iU3RyaW5nIiAvPjxGaWVsZCBOYW1lPSJEYXk1X0VmZmlfUGVyIiBUeXBlPSJEb3VibGUiIC8+PEZpZWxkIE5hbWU9IkRheTZfRGF0ZSIgVHlwZT0iRGF0ZVRpbWUiIC8+PEZpZWxkIE5hbWU9IkRheTZfT3BlcmF0b3IiIFR5cGU9IlN0cmluZyIgLz48RmllbGQgTmFtZT0iRGF5Nl9IZWxwZXIiIFR5cGU9IlN0cmluZyIgLz48RmllbGQgTmFtZT0iRGF5Nl9Xb3JraW5nX0hvdXIiIFR5cGU9IlN0cmluZyIgLz48RmllbGQgTmFtZT0iRGF5Nl9BY3R1YWxfU01WIiBUeXBlPSJTdHJpbmciIC8+PEZpZWxkIE5hbWU9IkRheTZfRWZmaV9QZXIiIFR5cGU9IkRvdWJsZSIgLz48RmllbGQgTmFtZT0iUHJvZF9EYXkxX0RhdGUiIFR5cGU9IkRhdGVUaW1lIiAvPjxGaWVsZCBOYW1lPSJQcm9kX0RheTFfUXVhbnRpdHkiIFR5cGU9IkRvdWJsZSIgLz48RmllbGQgTmFtZT0iUHJvZF9EYXkyX0RhdGUiIFR5cGU9IkRhdGVUaW1lIiAvPjxGaWVsZCBOYW1lPSJQcm9kX0RheTJfUXVhbnRpdHkiIFR5cGU9IkRvdWJsZSIgLz48RmllbGQgTmFtZT0iUHJvZF9EYXkzX0RhdGUiIFR5cGU9IkRhdGVUaW1lIiAvPjxGaWVsZCBOYW1lPSJQcm9kX0RheTNfUXVhbnRpdHkiIFR5cGU9IkRvdWJsZSIgLz48RmllbGQgTmFtZT0iUHJvZF9EYXk0X0RhdGUiIFR5cGU9IkRhdGVUaW1lIiAvPjxGaWVsZCBOYW1lPSJQcm9kX0RheTRfUXVhbnRpdHkiIFR5cGU9IkRvdWJsZSIgLz48RmllbGQgTmFtZT0iUHJvZF9EYXk1X0RhdGUiIFR5cGU9IkRhdGVUaW1lIiAvPjxGaWVsZCBOYW1lPSJQcm9kX0RheTVfUXVhbnRpdHkiIFR5cGU9IkRvdWJsZSIgLz48RmllbGQgTmFtZT0iUHJvZF9EYXk2X0RhdGUiIFR5cGU9IkRhdGVUaW1lIiAvPjxGaWVsZCBOYW1lPSJQcm9kX0RheTZfUXVhbnRpdHkiIFR5cGU9IkRvdWJsZSIgLz48L1ZpZXc+PC9EYXRhU2V0Pg==</value>
+  </data>
+  <data name="xrTableCell68.ExpressionBindings" xml:space="preserve">
+    <value>Iif([day1ACV] &gt;= [day2ACV] &amp;&amp; [day1ACV] &gt;= [day3ACV] &amp;&amp; [day1ACV] &gt;= [day4ACV] &amp;&amp; [day1ACV] &gt;= [day5ACV] &amp;&amp; [day1ACV] &gt;= [day6ACV], 1,
+Iif([day2ACV] &gt;= [day3ACV] &amp;&amp; [day2ACV] &gt;= [day4ACV] &amp;&amp; [day2ACV] &gt;= [day5ACV] &amp;&amp; [day2ACV] &gt;= [day6ACV], 2,
+Iif([day3ACV] &gt;= [day4ACV] &amp;&amp; [day3ACV] &gt;= [day5ACV] &amp;&amp; [day3ACV] &gt;= [day6ACV], 3,
+Iif([day4ACV] &gt;= [day5ACV] &amp;&amp; [day4ACV] &gt;= [day6ACV], 4,
+Iif([day5ACV] &gt;= [day6ACV], 5, 6)))))
+</value>
+  </data>
+  <data name="xrTableCell69.ExpressionBindings" xml:space="preserve">
+    <value>Iif([day1ACV] &gt;= [day2ACV] &amp;&amp; [day1ACV] &gt;= [day3ACV] &amp;&amp; [day1ACV] &gt;= [day4ACV] &amp;&amp; [day1ACV] &gt;= [day5ACV] &amp;&amp; [day1ACV] &gt;= [day6ACV], [day1ACV],
+Iif([day2ACV] &gt;= [day3ACV] &amp;&amp; [day2ACV] &gt;= [day4ACV] &amp;&amp; [day2ACV] &gt;= [day5ACV] &amp;&amp; [day2ACV] &gt;= [day6ACV], [day2ACV],
+Iif([day3ACV] &gt;= [day4ACV] &amp;&amp; [day3ACV] &gt;= [day5ACV] &amp;&amp; [day3ACV] &gt;= [day6ACV], [day3ACV],
+Iif([day4ACV] &gt;= [day5ACV] &amp;&amp; [day4ACV] &gt;= [day6ACV], [day4ACV],
+Iif([day5ACV] &gt;= [day6ACV], [day5ACV], [day6ACV])))))
+</value>
+  </data>
+  <data name="xrTableCell113.ExpressionBindings" xml:space="preserve">
+    <value>Iif([day1ACV] &gt;= [day2ACV] &amp;&amp; [day1ACV] &gt;= [day3ACV] &amp;&amp; [day1ACV] &gt;= [day4ACV] &amp;&amp; [day1ACV] &gt;= [day5ACV] &amp;&amp; [day1ACV] &gt;= [day6ACV], 1,
+Iif([day2ACV] &gt;= [day3ACV] &amp;&amp; [day2ACV] &gt;= [day4ACV] &amp;&amp; [day2ACV] &gt;= [day5ACV] &amp;&amp; [day2ACV] &gt;= [day6ACV], 2,
+Iif([day3ACV] &gt;= [day4ACV] &amp;&amp; [day3ACV] &gt;= [day5ACV] &amp;&amp; [day3ACV] &gt;= [day6ACV], 3,
+Iif([day4ACV] &gt;= [day5ACV] &amp;&amp; [day4ACV] &gt;= [day6ACV], 4,
+Iif([day5ACV] &gt;= [day6ACV], 5, 6)))))
+</value>
+  </data>
+  <data name="xrTableCell114.ExpressionBindings" xml:space="preserve">
+    <value>sumAvg(Iif([day1ACV] &gt;= [day2ACV] &amp;&amp; [day1ACV] &gt;= [day3ACV] &amp;&amp; [day1ACV] &gt;= [day4ACV] &amp;&amp; [day1ACV] &gt;= [day5ACV] &amp;&amp; [day1ACV] &gt;= [day6ACV], [day1ACV],
+Iif([day2ACV] &gt;= [day3ACV] &amp;&amp; [day2ACV] &gt;= [day4ACV] &amp;&amp; [day2ACV] &gt;= [day5ACV] &amp;&amp; [day2ACV] &gt;= [day6ACV], [day2ACV],
+Iif([day3ACV] &gt;= [day4ACV] &amp;&amp; [day3ACV] &gt;= [day5ACV] &amp;&amp; [day3ACV] &gt;= [day6ACV], [day3ACV],
+Iif([day4ACV] &gt;= [day5ACV] &amp;&amp; [day4ACV] &gt;= [day6ACV], [day4ACV],
+Iif([day5ACV] &gt;= [day6ACV], [day5ACV], [day6ACV])))))
+)</value>
+  </data>
+  <data name="day1ACV.Expression" xml:space="preserve">
+    <value>(
+    (ToDecimal(IsNull([Prod_Day1_Quantity], 0)) * ToDecimal(IsNull([TOTAL_SMV], 0)))
+    /
+    (
+        (ToDecimal(IsNull([Day1_Operator], 0)) + ToDecimal(IsNull([Day1_Helper], 0))) 
+        * ToDecimal(IsNull([Day1_Working_Hour], 0)) 
+        * 60
+    )
+)
+* 100
+</value>
+  </data>
+  <data name="day2ACV.Expression" xml:space="preserve">
+    <value>(
+    (ToDecimal(IsNull([Prod_Day2_Quantity], 0)) * ToDecimal(IsNull([TOTAL_SMV], 0)))
+    /
+    (
+        (ToDecimal(IsNull([Day2_Operator], 0)) + ToDecimal(IsNull([Day2_Helper], 0))) 
+        * ToDecimal(IsNull([Day2_Working_Hour], 0)) 
+        * 60
+    )
+)
+* 100
+</value>
+  </data>
+  <data name="day3ACV.Expression" xml:space="preserve">
+    <value>(
+    (ToDecimal(IsNull([Prod_Day3_Quantity], 0)) * ToDecimal(IsNull([TOTAL_SMV], 0)))
+    /
+    (
+        (ToDecimal(IsNull([Day3_Operator], 0)) + ToDecimal(IsNull([Day3_Helper], 0))) 
+        * ToDecimal(IsNull([Day3_Working_Hour], 0)) 
+        * 60
+    )
+)
+* 100
+</value>
+  </data>
+  <data name="day4ACV.Expression" xml:space="preserve">
+    <value>(
+    (ToDecimal(IsNull([Prod_Day4_Quantity], 0)) * ToDecimal(IsNull([TOTAL_SMV], 0)))
+    /
+    (
+        (ToDecimal(IsNull([Day4_Operator], 0)) + ToDecimal(IsNull([Day4_Helper], 0))) 
+        * ToDecimal(IsNull([Day4_Working_Hour], 0)) 
+        * 60
+    )
+)
+* 100
+</value>
+  </data>
+  <data name="day5ACV.Expression" xml:space="preserve">
+    <value>(
+    (ToDecimal(IsNull([Prod_Day5_Quantity], 0)) * ToDecimal(IsNull([TOTAL_SMV], 0)))
+    /
+    (
+        (ToDecimal(IsNull([Day5_Operator], 0)) + ToDecimal(IsNull([Day5_Helper], 0))) 
+        * ToDecimal(IsNull([Day5_Working_Hour], 0)) 
+        * 60
+    )
+)
+* 100
+</value>
+  </data>
+  <data name="day6ACV.Expression" xml:space="preserve">
+    <value>(
+    (ToDecimal(IsNull([Prod_Day6_Quantity], 0)) * ToDecimal(IsNull([TOTAL_SMV], 0)))
+    /
+    (
+        (ToDecimal(IsNull([Day6_Operator], 0)) + ToDecimal(IsNull([Day6_Helper], 0))) 
+        * ToDecimal(IsNull([Day6_Working_Hour], 0)) 
+        * 60
+    )
+)
+* 100
+</value>
+  </data>
+</root>

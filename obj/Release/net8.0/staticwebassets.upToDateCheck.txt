@@ -1,0 +1,7 @@
+wwwroot\css\icons\dxicons.ttf
+wwwroot\css\icons\dxicons.woff
+wwwroot\css\icons\dxicons.woff2
+wwwroot\css\thirdparty.bundle.css
+wwwroot\css\viewer.part.bundle.css
+wwwroot\js\thirdparty.bundle.js
+wwwroot\js\viewer.part.bundle.js

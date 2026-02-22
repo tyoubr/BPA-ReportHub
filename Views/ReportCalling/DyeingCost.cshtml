@@ -1,0 +1,15 @@
+﻿@using QCO.Reports
+@model DevExpress.XtraReports.UI.XtraReport
+
+@{
+    ViewData["Title"] = "Dyeing Cost Details";
+}
+
+<!-- DevExpress Report Viewer CSS -->
+<link rel="stylesheet" href="~/css/viewer.part.bundle.css" />
+<script src="~/js/viewer.part.bundle.js"></script>
+
+<div class="card shadow-lg p-3">
+    @Html.DevExpress().WebDocumentViewer("DocumentViewer").Height("1000px").Bind(Model)
+</div>
+

@@ -1,0 +1,113 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UserSecretsId>aspnet-QCO-0d8767e3-5891-4bfc-8ee8-82f7ff5595f5</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="node_modules\wwwroot\css\icons\dxicons.ttf" />
+    <Content Include="node_modules\wwwroot\css\icons\dxicons.woff" />
+    <Content Include="node_modules\wwwroot\css\icons\dxicons.woff2" />
+    <Content Include="node_modules\wwwroot\css\site.css" />
+    <Content Include="node_modules\wwwroot\css\thirdparty.bundle.css" />
+    <Content Include="node_modules\wwwroot\css\viewer.part.bundle.css" />
+    <Content Include="node_modules\wwwroot\favicon.ico" />
+    <Content Include="node_modules\wwwroot\images\QCO.jpg" />
+    <Content Include="node_modules\wwwroot\images\QCO1.jpg" />
+    <Content Include="node_modules\wwwroot\images\rh.png" />
+    <Content Include="node_modules\wwwroot\js\site.js" />
+    <Content Include="node_modules\wwwroot\js\thirdparty.bundle.js" />
+    <Content Include="node_modules\wwwroot\js\viewer.part.bundle.js" />
+    <Content Include="node_modules\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css" />
+    <Content Include="node_modules\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css.map" />
+    <Content Include="node_modules\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css" />
+    <Content Include="node_modules\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css.map" />
+    <Content Include="node_modules\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.css" />
+    <Content Include="node_modules\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.css.map" />
+    <Content Include="node_modules\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.min.css" />
+    <Content Include="node_modules\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.min.css.map" />
+    <Content Include="node_modules\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css" />
+    <Content Include="node_modules\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css.map" />
+    <Content Include="node_modules\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.min.css" />
+    <Content Include="node_modules\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.min.css.map" />
+    <Content Include="node_modules\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.css" />
+    <Content Include="node_modules\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.css.map" />
+    <Content Include="node_modules\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.min.css" />
+    <Content Include="node_modules\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.min.css.map" />
+    <Content Include="node_modules\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.css" />
+    <Content Include="node_modules\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.css.map" />
+    <Content Include="node_modules\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.min.css" />
+    <Content Include="node_modules\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.min.css.map" />
+    <Content Include="node_modules\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.css" />
+    <Content Include="node_modules\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.css.map" />
+    <Content Include="node_modules\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.min.css" />
+    <Content Include="node_modules\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.min.css.map" />
+    <Content Include="node_modules\wwwroot\lib\bootstrap\dist\css\bootstrap.css" />
+    <Content Include="node_modules\wwwroot\lib\bootstrap\dist\css\bootstrap.css.map" />
+    <Content Include="node_modules\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css" />
+    <Content Include="node_modules\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css.map" />
+    <Content Include="node_modules\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.css" />
+    <Content Include="node_modules\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.css.map" />
+    <Content Include="node_modules\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.min.css" />
+    <Content Include="node_modules\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.min.css.map" />
+    <Content Include="node_modules\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js" />
+    <Content Include="node_modules\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js.map" />
+    <Content Include="node_modules\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js" />
+    <Content Include="node_modules\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js.map" />
+    <Content Include="node_modules\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.js" />
+    <Content Include="node_modules\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.js.map" />
+    <Content Include="node_modules\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.min.js" />
+    <Content Include="node_modules\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.min.js.map" />
+    <Content Include="node_modules\wwwroot\lib\bootstrap\dist\js\bootstrap.js" />
+    <Content Include="node_modules\wwwroot\lib\bootstrap\dist\js\bootstrap.js.map" />
+    <Content Include="node_modules\wwwroot\lib\bootstrap\dist\js\bootstrap.min.js" />
+    <Content Include="node_modules\wwwroot\lib\bootstrap\dist\js\bootstrap.min.js.map" />
+    <Content Include="node_modules\wwwroot\lib\bootstrap\LICENSE" />
+    <Content Include="node_modules\wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.js" />
+    <Content Include="node_modules\wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.min.js" />
+    <Content Include="node_modules\wwwroot\lib\jquery-validation-unobtrusive\LICENSE.txt" />
+    <Content Include="node_modules\wwwroot\lib\jquery-validation\dist\additional-methods.js" />
+    <Content Include="node_modules\wwwroot\lib\jquery-validation\dist\additional-methods.min.js" />
+    <Content Include="node_modules\wwwroot\lib\jquery-validation\dist\jquery.validate.js" />
+    <Content Include="node_modules\wwwroot\lib\jquery-validation\dist\jquery.validate.min.js" />
+    <Content Include="node_modules\wwwroot\lib\jquery-validation\LICENSE.md" />
+    <Content Include="node_modules\wwwroot\lib\jquery\dist\jquery.js" />
+    <Content Include="node_modules\wwwroot\lib\jquery\dist\jquery.min.js" />
+    <Content Include="node_modules\wwwroot\lib\jquery\dist\jquery.min.map" />
+    <Content Include="node_modules\wwwroot\lib\jquery\LICENSE.txt" />
+  </ItemGroup>
+
+ 
+  <ItemGroup>
+    <PackageReference Include="BuildBundlerMinifier" Version="3.2.449" />
+    <PackageReference Include="DevExpress.AspNetCore.Reporting" Version="23.2.6" />
+    <PackageReference Include="Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore" Version="8.0.4" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="8.0.11" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.UI" Version="8.0.11" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="8.0.11" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="8.0.11" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="8.0.11">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="8.0.7" />
+    <PackageReference Include="Microsoft.Web.LibraryManager.Build" Version="2.1.175" />
+    <PackageReference Include="Oracle.EntityFrameworkCore" Version="8.21.121" />
+    <PackageReference Include="X.PagedList" Version="10.5.7" />
+    <PackageReference Include="X.PagedList.Mvc.Core" Version="10.5.7" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="DemoModels\" />
+    <Folder Include="Migrations\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="node_modules\wwwroot\images\rh.png" />
+  </ItemGroup>
+
+
+</Project>
