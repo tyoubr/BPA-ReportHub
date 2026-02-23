@@ -32,66 +32,33 @@
                             <li class="nav-item">
                                 <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
                             </li>
-                            @* <li class="nav-item">
-                                <a class="nav-link text-dark" asp-area="" asp-controller="LayoutMonitoringSheets" asp-action="Index">Layout Monitoring Sheets</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link text-dark" asp-area="" asp-controller="Cause_Of_Delay" asp-action="Index">Cause Of Delay</a>
-                            </li> *@
-                            <li class="nav-item">
-                                <a class="nav-link text-dark" asp-controller="ReportCalling" asp-action="Viewer" asp-route-reportName="GreyStockReport">Grey Stock Report</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link text-dark" asp-controller="ReportCalling" asp-action="Viewer" asp-route-reportName="rptShipment">Daily Shipment Status</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link text-dark" asp-controller="ReportCalling" asp-action="Viewer1" asp-route-reportName="rptYarnAging">LOT Wise Yarn Aging Report</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link text-dark" asp-controller="ReportCalling" asp-action="Viewer2" asp-route-reportName="rptWorkOrderFOllowup_Tex">Outside Textile Work Order Follow Up</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link text-dark" asp-controller="ReportCalling" asp-action="Viewer3" asp-route-reportName="rptSewingWIP">Sewing Input Output Report</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link text-dark" asp-controller="ReportCalling" asp-action="DyeingProd" asp-route-reportName="rptDyeingProduction">Dyeing Production Report</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link text-dark" asp-controller="ReportCalling" asp-action="DyeingProd1" asp-route-reportName="rptDyeing_Production_WC">Dyeing Production Report(WC)</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link text-dark" asp-controller="ReportCalling" asp-action="DyeingKPI" asp-route-reportName="rptDyeingKPI">Dyeing KPI Report</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link text-dark" asp-controller="ReportCalling" asp-action="PieceRate" asp-route-reportName="rptDailySewingProduction">Daily Sewing Input Output Report (Piece Rate)</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link text-dark" asp-controller="ReportCalling" asp-action="LineWiseWIP" asp-route-reportName="rptLineWiseWIP">Line Wise Sewing Input Output</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link text-dark" asp-controller="ReportCalling" asp-action="Test" asp-route-reportName="rptGreyTransferFollowUp">Grey Transfer Report</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link text-dark" asp-controller="ReportCalling" asp-action="DHU" asp-route-reportName="rptFinalDHU">Sewing DHU</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link text-dark" asp-controller="ReportCalling" asp-action="GP_OUT" asp-route-reportName="rptGatePass_Out">Gate Pass_OUT</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link text-dark" asp-controller="ReportCalling" asp-action="FIN_FAB_STOCK" asp-route-reportName="rptFinishFabStock">Finish Fabric RCV & ISSUE</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link text-dark" asp-controller="ReportCalling" asp-action="DyeingCost" asp-route-reportName="rptDyeingCost">Dyeing Cost Details </a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link text-dark" asp-controller="ReportCalling" asp-action="YarnAllocation" asp-route-reportName="rptYarnAllocation">Yarn Allocation Report </a>
-                            </li>
-                           @*  <li class="nav-item">
-                                <a class="nav-link text-dark" asp-controller="ReportCalling" asp-action="Viewer" asp-route-reportName="rptLayoutMonitoringSheet">Layout Monitoring Report</a>
-                            </li> *@
 
+                            <!-- Dropdown for Reports -->
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle text-dark" href="#" id="reportsDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Reports
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="reportsDropdown">
+                                    <li><a class="dropdown-item" asp-controller="ReportCalling" asp-action="Viewer" asp-route-reportName="GreyStockReport">Grey Stock Report</a></li>
+                                    <li><a class="dropdown-item" asp-controller="ReportCalling" asp-action="Viewer" asp-route-reportName="rptShipment">Daily Shipment Status</a></li>
+                                    <li><a class="dropdown-item" asp-controller="ReportCalling" asp-action="Viewer1" asp-route-reportName="rptYarnAging">LOT Wise Yarn Aging Report</a></li>
+                                    <li><a class="dropdown-item" asp-controller="ReportCalling" asp-action="Viewer2" asp-route-reportName="rptWorkOrderFOllowup_Tex">Outside Textile Work Order Follow Up</a></li>
+                                    <li><a class="dropdown-item" asp-controller="ReportCalling" asp-action="Viewer3" asp-route-reportName="rptSewingWIP">Sewing Input Output Report</a></li>
+                                    <li><a class="dropdown-item" asp-controller="ReportCalling" asp-action="DyeingProd" asp-route-reportName="rptDyeingProduction">Dyeing Production Report</a></li>
+                                    <li><a class="dropdown-item" asp-controller="ReportCalling" asp-action="DyeingProd1" asp-route-reportName="rptDyeing_Production_WC">Dyeing Production Report(WC)</a></li>
+                                    <li><a class="dropdown-item" asp-controller="ReportCalling" asp-action="DyeingKPI" asp-route-reportName="rptDyeingKPI">Dyeing KPI Report</a></li>
+                                    <li><a class="dropdown-item" asp-controller="ReportCalling" asp-action="PieceRate" asp-route-reportName="rptDailySewingProduction">Daily Sewing Input Output Report (Piece Rate)</a></li>
+                                    <li><a class="dropdown-item" asp-controller="ReportCalling" asp-action="LineWiseWIP" asp-route-reportName="rptLineWiseWIP">Line Wise Sewing Input Output</a></li>
+                                    <li><a class="dropdown-item" asp-controller="ReportCalling" asp-action="Test" asp-route-reportName="rptGreyTransferFollowUp">Grey Transfer Report</a></li>
+                                    <li><a class="dropdown-item" asp-controller="ReportCalling" asp-action="DHU" asp-route-reportName="rptFinalDHU">Sewing DHU</a></li>
+                                    <li><a class="dropdown-item" asp-controller="ReportCalling" asp-action="GP_OUT" asp-route-reportName="rptGatePass_Out">Gate Pass_OUT</a></li>
+                                    <li><a class="dropdown-item" asp-controller="ReportCalling" asp-action="FIN_FAB_STOCK" asp-route-reportName="rptFinishFabStock">Finish Fabric RCV & ISSUE</a></li>
+                                    <li><a class="dropdown-item" asp-controller="ReportCalling" asp-action="DyeingCost" asp-route-reportName="rptDyeingCost">Dyeing Cost Details</a></li>
+                                    <li><a class="dropdown-item" asp-controller="ReportCalling" asp-action="YarnAllocation" asp-route-reportName="rptYarnAllocation">Yarn Allocation Report</a></li>
+                                </ul>
+                            </li>
                         }
-                    </ul>
+                    @* </ul> *@
                     @* <partial name="_LoginPartial" /> *@
                 </div>
             </div>
@@ -99,7 +66,53 @@
     </header>
 
     <div class="container">
-        <!-- This is where the content of individual views will be rendered -->
+        <div class="text-center my-4 p-4 bg-light rounded shadow-sm border">
+
+            @{
+                var userName = User.Identity?.Name ?? "Guest";
+                var greeting = DateTime.Now.Hour < 12 ? "Good Morning"
+                : DateTime.Now.Hour < 17 ? "Good Afternoon"
+                : "Good Evening";
+            }
+
+            <!-- Greeting -->
+            <h2 class="fw-normal text-secondary mb-2">
+                @greeting,
+                <span class="text-primary fw-bold">Mr. @userName</span>
+            </h2>
+
+            <!-- Role Based Welcome -->
+            <h1 class="fw-bold text-dark">
+                <text>Welcome to <span class="text-success">Report Hub</span></text>
+
+             @*    @if (User.IsInRole("Admin") || User.IsInRole("User"))
+                {
+                    <text>Welcome to <span class="text-success">Report Hub</span></text>
+                }
+                else if (User.IsInRole("SpecialAccess"))
+                {
+                    <text>Welcome to <span class="text-info">Report Hub</span></text>
+                }
+                else
+                {
+                    <text>Welcome <span class="text-muted">Guest</span></text>
+                } *@
+
+            </h1>
+
+            <!-- Sub Text -->
+            <p class="lead mt-3 text-muted">
+                @if (User.Identity?.IsAuthenticated == true)
+                {
+                    <text>You are logged in as <strong>Mr. @userName</strong></text>
+                }
+                else
+                {
+                    <text>Please log in to access your dashboard.</text>
+                }
+            </p>
+
+        </div>
         @RenderBody()
     </div>
 
